@@ -1,4 +1,6 @@
-#include <iostream>
+﻿#include <iostream>
+#include <string>
+#include <sstream>
 using namespace std;
 
 bool cau6_check(int nam)
@@ -50,9 +52,10 @@ void cau8(int thang, int nam)
 	}
 }
 
+
 int main()
 {
-	int thang, nam;
+	/*int thang, nam;
 	while(1)
 	{
 		cout << "Nhap thang: ";
@@ -60,7 +63,7 @@ int main()
 		cout << "Nhap nam: ";
 		cin >> nam;
 		cau8(thang, nam);
-	}
+	}*/
 
 	system("pause");
 	return 0;

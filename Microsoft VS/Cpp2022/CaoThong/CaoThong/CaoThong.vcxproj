@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lab3.cpp" />
+    <ClCompile Include="lab5.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{365B9C81-97A1-4474-9F99-1D984F48302F}</ProjectGuid>
