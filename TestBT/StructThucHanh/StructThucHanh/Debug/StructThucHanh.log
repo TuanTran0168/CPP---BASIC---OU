@@ -1,0 +1,16 @@
+﻿Build started 15/05/2021 12:56:53 SA.
+     1>Project "D:\VS2010\TestBT\StructThucHanh\StructThucHanh\StructThucHanh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\StructThucHanh.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CanCuocCongDan.cpp
+         CanCuocCongDan.cpp
+     1>d:\vs2010\testbt\structthuchanh\structthuchanh\cancuoccongdan.cpp(4): error C2065: 'CCCD' : undeclared identifier
+     1>d:\vs2010\testbt\structthuchanh\structthuchanh\cancuoccongdan.cpp(4): error C2065: 'a' : undeclared identifier
+     1>d:\vs2010\testbt\structthuchanh\structthuchanh\cancuoccongdan.cpp(4): error C2182: 'ham_NhapMotCongDan' : illegal use of type 'void'
+     1>d:\vs2010\testbt\structthuchanh\structthuchanh\cancuoccongdan.cpp(4): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "D:\VS2010\TestBT\StructThucHanh\StructThucHanh\StructThucHanh.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.27

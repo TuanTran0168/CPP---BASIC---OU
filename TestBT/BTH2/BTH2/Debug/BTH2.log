@@ -1,0 +1,30 @@
+﻿Build started 04/11/2020 8:03:04 CH.
+     1>Project "D:\VS2010\TestBT\BTH2\BTH2\BTH2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BTH2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BTH2_BT06.cpp BTH2_BT08.cpp
+         BTH2_BT08.cpp
+         BTH2_BT06.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2010\TestBT\BTH2\Debug\BTH2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BTH2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VS2010\TestBT\BTH2\Debug\BTH2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2010\TestBT\BTH2\Debug\BTH2.lib" /MACHINE:X86 Debug\BTH2_BT01.obj
+         Debug\BTH2_BT02.obj
+         Debug\BTH2_BT03.obj
+         Debug\BTH2_BT04.obj
+         Debug\BTH2_BT05.obj
+         Debug\BTH2_BT06.obj
+         Debug\BTH2_BT07.obj
+         Debug\BTH2_BT08.obj
+         LINK : D:\VS2010\TestBT\BTH2\Debug\BTH2.exe not found or not built by the last incremental link; performing full link
+         BTH2.vcxproj -> D:\VS2010\TestBT\BTH2\Debug\BTH2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VS2010\TestBT\BTH2\Debug\BTH2.exe;#1" /manifest Debug\BTH2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BTH2.unsuccessfulbuild".
+         Touching "Debug\BTH2.lastbuildstate".
+     1>Done Building Project "D:\VS2010\TestBT\BTH2\BTH2\BTH2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

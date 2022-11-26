@@ -1,0 +1,22 @@
+20
+My,Trung Quoc,Nhat Ban,Anh,ROC,Australia,Duc,Ha Lan,Italy,Phap,Brazil,Canada,Cuba,New Zealand,Han Quoc,Hungary,Ba Lan,CH Sec,Jamaica,Tay Ban Nha
+39,41,33 
+38,32,18 
+27,14,17 
+22,21,22 
+20,28,23 
+17,7,22 
+10,11,16 
+10,12,14 
+10,10,20 
+10,12,11 
+7,6,8 
+7,6,11 
+7,3,5 
+7,6,7 
+6,4,10 
+6,7,7 
+4,5,5 
+4,4,3 
+4,1,4
+3,8,6

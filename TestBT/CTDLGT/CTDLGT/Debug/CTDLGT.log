@@ -1,0 +1,21 @@
+﻿Build started 18/08/2021 12:32:23 CH.
+     1>Project "D:\VS2010\TestBT\CTDLGT\CTDLGT\CTDLGT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\CTDLGT.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CayNhiPhanNew.cpp
+         CayNhiPhanNew.cpp
+     1>d:\vs2010\testbt\ctdlgt\ctdlgt\caynhiphannew.cpp(192): warning C4715: 'ham_Search' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2010\TestBT\CTDLGT\Debug\CTDLGT.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CTDLGT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VS2010\TestBT\CTDLGT\Debug\CTDLGT.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2010\TestBT\CTDLGT\Debug\CTDLGT.lib" /MACHINE:X86 Debug\CayNhiPhanNew.obj
+         CTDLGT.vcxproj -> D:\VS2010\TestBT\CTDLGT\Debug\CTDLGT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VS2010\TestBT\CTDLGT\Debug\CTDLGT.exe;#1" /manifest Debug\CTDLGT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CTDLGT.unsuccessfulbuild".
+         Touching "Debug\CTDLGT.lastbuildstate".
+     1>Done Building Project "D:\VS2010\TestBT\CTDLGT\CTDLGT\CTDLGT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28

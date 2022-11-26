@@ -1,0 +1,23 @@
+﻿Build started 14/05/2021 11:45:49 CH.
+     1>Project "C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\DeQuiThucHanh\DeQuiThucHanh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DeQuyThucHanh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DeQuyCoBan.cpp
+         DeQuyCoBan.cpp
+     1>c:\users\admin\documents\visual studio 2010\projects\dequithuchanh\dequithuchanh\dequycoban.cpp(248): warning C4244: 'return' : conversion from 'double' to '__int64', possible loss of data
+     1>c:\users\admin\documents\visual studio 2010\projects\dequithuchanh\dequithuchanh\dequycoban.cpp(356): warning C4715: 'ham_DemSoLeTrongMotSoNguyen' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\Debug\DeQuyThucHanh.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DeQuyThucHanh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\Debug\DeQuyThucHanh.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\Debug\DeQuyThucHanh.lib" /MACHINE:X86 Debug\DeQuyCoBan.obj
+         LINK : C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\Debug\DeQuyThucHanh.exe not found or not built by the last incremental link; performing full link
+         DeQuiThucHanh.vcxproj -> C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\Debug\DeQuyThucHanh.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\Debug\DeQuyThucHanh.exe;#1" /manifest Debug\DeQuyThucHanh.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DeQuyThucHanh.unsuccessfulbuild".
+         Touching "Debug\DeQuyThucHanh.lastbuildstate".
+     1>Done Building Project "C:\Users\Admin\documents\visual studio 2010\Projects\DeQuiThucHanh\DeQuiThucHanh\DeQuiThucHanh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

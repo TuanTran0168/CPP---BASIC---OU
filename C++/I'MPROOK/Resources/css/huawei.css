@@ -1,0 +1,1370 @@
+div.MAIN {
+    width: 100%;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Bar {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 80px;
+}
+
+.Bar__Inner {
+    width: 98%;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+.Bar__Inner ul {
+    list-style-type: none;
+    font-weight: 650;
+    font-size: 14px;
+    height: 100%;
+    line-height: 50px;
+}
+
+
+/*Cho list thành hàng ngang*/
+
+.Bar__Inner ul li {
+    display: inline-table;
+}
+
+.Bar__Inner-List1-Icon li {
+    /* display: inline-table; */
+    width: 15%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.Bar__Inner-List1-Left li {
+    /* display: inline-table; */
+    width: 16%;
+    /* height: 100%; */
+    /*z index cái hình nên không cần giãn li ra*/
+    line-height: 30px;
+    text-align: center;
+}
+
+.Bar__Inner-List1-Right li {
+    /* display: inline-table; */
+    width: 20%;
+    /* height: 100%; */
+    line-height: 30px;
+    text-align: center;
+}
+
+.Bar__Inner li a {
+    color: black;
+    /* text-decoration: none; */
+    display: block;
+    /*Đổi về block để hover*/
+}
+
+li.Sub>a {
+    text-decoration: none;
+}
+
+li.MenuActive__ListItems__Item>a {
+    text-decoration: none;
+    font-weight: 490;
+}
+
+div.MenuActive__Inner h3>a {
+    text-decoration: none;
+}
+
+
+/* .Bar__Inner li a:hover {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    border-radius: 20px 20px;
+    border-spacing: 4px
+} */
+
+.Bar__Inner-Logo {
+    width: 45%;
+    z-index: 100;
+    margin-top: -0.5%;
+}
+
+.Bar__Inner-Logo>a>img {
+    width: 100%;
+}
+
+.Bar__Inner-List1-Left {
+    width: 100%;
+}
+
+.Hover-li-In-Bar {
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+    border-radius: 20px 20px;
+    border-spacing: 4px
+}
+
+
+/*=======================PHẦN MENU ĐỔ XUỐNG=============================*/
+
+ul.MenuActive__ListItems {
+    font-size: larger;
+    background-color: #044262;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    padding: 0;
+    /* top: 80px; */
+    left: 0px;
+    z-index: 99;
+}
+
+ul.MenuActive__ListItems li {
+    width: 20%;
+    margin-right: 99%;
+    margin-left: 1%;
+    /* margin-top: 2%; */
+    text-align: left;
+    font-weight: 550;
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    /* background-color: rgb(19, 199, 253); */
+    z-index: 999;
+}
+
+li.Sub>a {
+    transition: all 1s;
+}
+
+li.Sub>a:hover {
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+    border-radius: 20px 20px;
+    border-spacing: 4px
+}
+
+.MenuActive__Inner {
+    position: absolute;
+    width: 100%;
+    padding-top: 5%;
+}
+
+ul.MenuActive__ListItems a {
+    display: inline;
+}
+
+.MenuActive__Inner h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 4%;
+}
+
+.MenuActive__Inner a {
+    /* background-color: aquamarine; */
+    transition: all 0.35s;
+}
+
+.MenuActive__Inner strong {
+    box-shadow: 0 2px black;
+}
+
+
+/* li.Item>a {
+    box-shadow: 0 3px black;
+} */
+
+
+/* .MenuActive li a:hover {
+    box-shadow: 0 3px black;
+} */
+
+div.IMG__LOADED {
+    /* background-color: aquamarine; */
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 30.4%;
+    right: 0;
+    /* border-style: solid;
+    border-left: 2px; */
+    text-align: center;
+    padding-left: 28%;
+}
+
+
+/* div.Split {
+    position: absolute;
+    height: 100%;
+    width: 56%;
+    border-radius: 20px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 3px;
+} */
+
+div.Split {
+    /* background-color: red; */
+    position: absolute;
+    height: 100%;
+    width: 56%;
+    border-left-style: solid;
+    border-width: 3px;
+}
+
+.IMG-Phone img {
+    width: 70%;
+}
+
+.IMG-TV img {
+    width: 70%;
+}
+
+.IMG-Laptop img {
+    width: 73%;
+}
+
+.IMG-Discover img {
+    width: 50%;
+}
+
+.IMG-Endow img {
+    width: 50%;
+}
+
+.IMG-Support img {
+    width: 50%;
+}
+
+.IMG-Enterprise img {
+    width: 50%;
+}
+
+div.Link {
+    padding-top: 3%;
+}
+
+div.Link h2 {
+    background-color: white;
+}
+
+div.Link a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: black;
+    padding: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 2px black;
+}
+
+div.Link a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    box-shadow: 2px 2px 9px 0 black;
+}
+
+.Subcontent {
+    display: none;
+}
+
+.Sub:hover .Subcontent {
+    display: block;
+}
+
+.Show-Subcontent {
+    display: block;
+}
+
+.Show-Background-Hover {
+    /* background-color: black; */
+    color: white;
+    transition: 0.3s;
+    border-radius: 20px 20px;
+    border-spacing: 4px
+}
+
+
+/*=== PHẦN DI ĐỘNG ===*/
+
+
+/* .Sub:hover li:first-child a:first-child {
+    transition: 0.3s;
+    box-shadow: 0 3px black;
+} */
+
+
+/* .Phone {
+    display: none;
+} */
+
+
+/* .Item:hover .Phone {
+    background-color: white;
+    display: block;
+} */
+
+
+/* .Item:first-child .Phone {
+    display: block;
+} */
+
+.Show-IMG {
+    display: block;
+    box-shadow: 0 2px black;
+}
+
+.Bottom-Shadow {
+    box-shadow: 0 2px black;
+}
+
+.Opacity {
+    opacity: 0.2;
+}
+
+
+/*=== PHẦN DI ĐỘNG:END ===*/
+
+
+/*=== PHẦN ICON ===*/
+
+div.Bar__Inner-List1-Icon {
+    position: relative;
+}
+
+div.Menu-Icon {
+    background-color: white;
+    box-shadow: 3px 5px 13px #888888;
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    z-index: 999;
+    right: 40%;
+    top: 55%;
+    display: none;
+}
+
+div.Menu-Icon i {
+    vertical-align: middle;
+    padding-right: 5%;
+}
+
+div.Menu-Icon hr {
+    padding: 0;
+    margin: 0;
+}
+
+div.Menu-Icon a {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    transition-duration: 0.35s;
+}
+
+ul.USER {
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul.USER li:first-child {
+    width: 1%;
+    /* background-color: #044262; */
+}
+
+ul.USER li:nth-child(3) {
+    width: 1%;
+    /* background-color: #11b0ff; */
+}
+
+ul.USER>li {
+    width: 50%;
+    padding: 1%;
+}
+
+li.Sub:hover .Menu-Icon {
+    display: block;
+}
+
+div.USER1 {
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.USER1 span {
+    width: 100%;
+    padding: 5%;
+    /* background-color: blue; */
+}
+
+ul.USER a:hover {
+    transform: scale(1.2);
+    transition-duration: 0.35s;
+}
+
+div.USER1 a:hover {
+    background-color: #d4d1d1;
+    border-radius: 5px;
+    transition-duration: 0.35s;
+}
+
+
+/* div.USER1 span:last-child {
+    position: relative;
+} */
+
+div.USER1 span img {
+    position: absolute;
+    right: 10%;
+    bottom: 6%;
+    width: 13%;
+}
+
+
+/* div.Language-Icon {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: yellow;
+}
+
+div.Language-Icon img {
+    position: absolute;
+    width: 15%;
+    right: 0;
+    bottom: 5%;
+} */
+
+div.Language-Icon h6 {
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+}
+
+
+/* div.Language-Icon {
+    background-color: #044262;
+    vertical-align: middle;
+    position: absolute;
+    display: flex;
+    left: 0%;
+    bottom: 5%;
+}
+
+div.Language-Icon img {
+    width: 40%;
+} */
+
+
+/*=== PHẦN ICON:END ===*/
+
+
+/*=======================PHẦN MENU ĐỔ XUỐNG:END=============================*/
+
+.Bar__Inner-List1-Right {
+    width: 100%;
+}
+
+.Bar__Inner-List1-Icon {
+    margin-top: 0.5%;
+    width: 40%;
+}
+
+
+/*=========================================================*/
+
+div.Container {
+    width: 100%;
+    height: auto;
+}
+
+div.Container__Inner {
+    background-image: url("Background-Images/index/CSS-Background-Image-HuaweiGirls.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    position: relative;
+}
+
+div.Container-Content {
+    width: 50%;
+    height: auto;
+    /* margin-left: 5%;
+    margin-top: 10%; */
+    background-color: #efefef;
+}
+
+div.Content-Text {
+    width: 100%;
+    height: 100%;
+    padding: 15% 30% 29% 10%;
+}
+
+div.Content-Text h2 {
+    font-size: 40px;
+}
+
+div.Content-Text h6 {
+    font-size: 18px;
+    color: #7f7f7f;
+    padding: 1%;
+}
+
+div.Content-Text a {
+    font-weight: 500;
+    display: inline-block;
+    background-color: black;
+    padding: 2% 5%;
+    margin-top: 5%;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    position: relative;
+}
+
+div.Content-Text>a>span {
+    position: absolute;
+    display: block;
+    background-color: black;
+    transition: ease-in-out 0.5s;
+}
+
+div.Content-Text>a>span:first-child {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0.35);
+    transform-origin: left;
+}
+
+div.Content-Text>a:hover span:first-child {
+    transform: scaleX(1);
+    background-color: black;
+}
+
+div.Content-Text>a>span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0.3);
+    transform-origin: bottom;
+}
+
+div.Content-Text>a:hover span:nth-child(2) {
+    transform: scaleY(1);
+    background-color: black;
+}
+
+div.Content-Text a>span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0.35);
+    transform-origin: right;
+}
+
+div.Content-Text>a:hover span:nth-child(3) {
+    transform: scaleX(1);
+    background-color: black;
+}
+
+div.Content-Text a>span:last-child {
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0.3);
+    transform-origin: top;
+}
+
+div.Content-Text>a:hover span:last-child {
+    transform: scaleY(1);
+    background-color: black;
+}
+
+
+/* div.Product-Link>a:hover {
+    background: linear-gradient( rgb(224, 222, 222), rgb(250, 250, 250));
+    box-shadow: 2px 2px 7px 0px #666;
+    color: red;
+    transform: scale(1.005);
+    transition-duration: 1s;
+} */
+
+div.Content-Text a:hover {
+    background-color: white;
+    box-shadow: 2px 2px 7px 0px #666;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+div.Content-Image {
+    width: 22%;
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+    /* background-color: burlywood; */
+}
+
+@keyframes Loading {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+    25% {
+        top: 0px;
+        right: 30px;
+    }
+    50% {
+        top: 30px;
+        right: 30px;
+    }
+    75% {
+        top: 30px;
+        right: 0px;
+    }
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+@keyframes Loading2 {
+    0% {
+        top: 35px;
+    }
+    25% {
+        top: 0px;
+    }
+    50% {
+        top: 35px;
+    }
+    75% {
+        top: 0px;
+    }
+    100% {
+        top: 35px;
+    }
+}
+
+div.Content-Image img {
+    width: 100%;
+    position: relative;
+    animation: Loading2 7s infinite;
+    transition-duration: 0.5s;
+}
+
+div.Content-Image img:hover {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+
+/*=======================================*/
+
+div.Product-Wrap {
+    /*background-color: red;*/
+    width: 100%;
+    height: 700px;
+}
+
+div.Product-Wrap__Inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*background-color: chartreuse;*/
+}
+
+div.Product-Block {
+    /*background-color: blue;*/
+    width: 45%;
+    height: 100%;
+    margin-top: 7%;
+}
+
+div.Product-Block>a {
+    width: 100%;
+    height: 70%;
+    display: block;
+    background-color: rgb(231, 231, 231);
+}
+
+
+/*=========Ảnh 2 máy=========*/
+
+div.Product-Image.Double {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.Product-Image.Double img {
+    margin-top: 7%;
+    transition-duration: 0.8s;
+}
+
+div.Product-Image.Double img:first-child {
+    width: 27%;
+    z-index: 1;
+}
+
+div.Product-Image.Double img:last-child {
+    width: 18%;
+    margin-left: -5%;
+    z-index: 0;
+}
+
+div.Product-Block>a:hover div.Product-Image.Double>img:first-child {
+    transform: scale(1.03);
+    transition-duration: 0.8s;
+}
+
+div.Product-Block>a:hover div.Product-Image.Double>img:last-child {
+    margin-left: 0;
+    transform: scale(1.03);
+    transition-duration: 0.8s;
+}
+
+
+/*=========Ảnh 2 máy:END=========*/
+
+
+/*=========Ảnh 1 máy=========*/
+
+div.Product-Image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.Product-Image img {
+    width: 48.3%;
+    margin-top: 6.3%;
+    transition-duration: 0.5s;
+}
+
+div.Product-Block>a:hover div.Product-Image.One img {
+    margin-top: 2%;
+    transition-duration: 0.5s;
+}
+
+
+/*=========Ảnh 1 máy:END=========*/
+
+div.Product-Infor {
+    width: 100%;
+    height: 30%;
+    /*background-color: cyan;*/
+}
+
+div.Product-Infor>a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin: 3% 0 2% 0;
+    font-size: 28px;
+}
+
+div.Product-Infor p {
+    padding: 1% 0 0 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7f7f7f;
+}
+
+div.Product-Link {
+    /* background-color: hotpink; */
+    display: flex;
+}
+
+div.Product-Link>a {
+    font-weight: 550;
+    display: block;
+    /* background: linear-gradient(rgb(250, 250, 250), rgb(224, 222, 222)); */
+    background-color: black;
+    padding: 1.5% 4%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    position: relative;
+}
+
+div.Product-Link>a>span {
+    position: absolute;
+    display: block;
+    background-color: black;
+    transition: ease-in-out 0.5s;
+}
+
+div.Product-Link>a>span:first-child {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+div.Product-Link>a:hover span:first-child {
+    transform: scaleX(1);
+    background-color: black;
+}
+
+div.Product-Link>a>span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+div.Product-Link>a:hover span:nth-child(2) {
+    transform: scaleY(1);
+    background-color: black;
+}
+
+div.Product-Link a>span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+div.Product-Link>a:hover span:nth-child(3) {
+    transform: scaleX(1);
+    background-color: black;
+}
+
+div.Product-Link a>span:last-child {
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+div.Product-Link>a:hover span:last-child {
+    transform: scaleY(1);
+    background-color: black;
+}
+
+div.Product-Link>a:hover {
+    /* background: linear-gradient( rgb(224, 222, 222), rgb(250, 250, 250)); */
+    background-color: white;
+    box-shadow: 2px 2px 7px 0px #666;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+
+/*=======================================*/
+
+div.Product-Wrap-Second__Inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 68%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+div.Product-Block-Second {
+    width: 23%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+div.Product-Block-Second img {
+    width: 75%;
+    margin-top: 15%;
+    transition-duration: 0.5s;
+}
+
+div.Product-Infor-Second p {
+    font-size: 14px;
+}
+
+div.Product-Block-Second>a {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    display: block;
+    background-color: rgb(231, 231, 231);
+}
+
+div.Product-Block-Second>a:hover img {
+    margin-top: 7%;
+    transition-duration: 0.5s;
+}
+
+div.Product-Infor-Second>a {
+    font-size: 25px;
+}
+
+
+/*=======================================*/
+
+
+/*=======================================*/
+
+div.Flex-Wrapper {
+    background-image: url("Background-Images/index/CSS-Background-Image-BuyStrip.jpg");
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 160%;
+    /* background-color: red; */
+}
+
+div.Flex-Wrapper__Inner {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+div.Flex-Wrapper a {
+    background-color: black;
+    display: inline-block;
+    padding: 1.5% 3%;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 450;
+    text-decoration: none;
+    transition: 0.5s;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+div.Flex-Wrapper a:hover {
+    background-color: white;
+    box-shadow: 2px 2px 7px 0px #666;
+    color: black;
+    transition: 0.4s;
+}
+
+
+/*=====Hover xịn======*/
+
+
+/* div.Flex-Wrapper a::before {
+    content: '';
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    background-color: rgba(255, 255, 255, 0.582);
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
+
+div.Flex-Wrapper a:hover::before {
+    right: 0;
+} */
+
+
+/*=====Hover xịn:END======*/
+
+div.Buy-Strip {
+    /* background-color: blue; */
+    width: 27%;
+    height: 100%;
+    /* border: 2px solid;
+    border-color: black; */
+    /* margin-top: 8%; */
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border-radius: 20px; */
+}
+
+div.Buy-Strip img {
+    width: 25%;
+}
+
+div.Buy-Strip>div {
+    font-size: 20px;
+}
+
+
+/*=======================================*/
+
+footer {
+    background-color: #044262;
+    width: 100%;
+    height: 650px;
+    background-image: url("Background-Images/index/CSS-Background-Image-Footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.Footer__Inner {
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+div.Footer-Top {
+    display: flex;
+    align-items: baseline;
+}
+
+div.Footer-Top-Left {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    /* background-color: aqua; */
+}
+
+div.NameCP a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+}
+
+div.Footer-Top-Right {
+    display: flex;
+    align-items: baseline;
+    /* background-color: yellow; */
+    margin-left: 15%;
+}
+
+div.Hotline {
+    margin-left: 10%;
+}
+
+div.Hotline h3 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+}
+
+div.Hotline>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2%;
+    margin-top: 0.5%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+div.Hotline>a:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+div.Social {
+    margin-left: 25%;
+    width: 20%;
+}
+
+div.Social>ul {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    /* background-color: chartreuse; */
+}
+
+div.Social>ul>li {
+    width: 20%;
+    /* background-color: blue; */
+}
+
+div.Social>ul>li>a>img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+div.Social>ul>li>a>img:hover {
+    transform: scale(1.15);
+    transition-duration: 0.2s;
+}
+
+ul.List-Content-Link {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    width: 100%;
+}
+
+ul.List-Content-Link>li {
+    margin-left: 2.5%;
+}
+
+ul.List-Content-Link>li:first-child {
+    margin-left: 1%;
+}
+
+ul.List-Content-Link>li:nth-child(2) {
+    margin-top: 5.3%;
+    margin-left: -3%;
+}
+
+ul.List-Content-Link>li>ul {
+    padding: 0;
+}
+
+ul.List-Content-Link>li>h6 {
+    color: rgb(221, 214, 214);
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul.List-Content-Link>li>ul>li>a {
+    text-decoration: none;
+    /* color: rgb(206, 187, 187); */
+    color: white;
+    font-size: 16px;
+}
+
+div.Footer-Content {
+    display: flex;
+    box-sizing: border-box;
+}
+
+div.Content-Left {
+    /* background-color: red; */
+    width: 45%;
+}
+
+div.Content-Right {
+    /* background-color: blue; */
+    margin-left: 5.1%;
+}
+
+div.Content-Right h3 {
+    color: rgb(221, 214, 214);
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ul.Blog-Content {
+    padding: 0;
+}
+
+ul.Blog-Content>li>ul {
+    padding: 0;
+}
+
+ul.Blog-Content h6 {
+    color: rgb(212, 201, 201);
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+ul.Blog-Content>li>ul>a {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    margin-top: 0.5%;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul.Blog-Content>li>ul>a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+ul.Blog-Content>li>ul>li {
+    /* color: rgb(206, 187, 187); */
+    color: white;
+    font-size: 16px;
+    padding: 0.5%;
+}
+
+li.Primary-Link__List-Item a:hover {
+    color: aqua;
+}
+
+div.List-Shop__Content {
+    width: 20%;
+}
+
+div.List-Shop__Content h3 {
+    color: rgb(221, 214, 214);
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul.Retailers-List {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin-top: 7%;
+    /* background-color: green; */
+}
+
+ul.Retailers-List li {
+    margin-top: 6%;
+    margin: 5%;
+}
+
+ul.Retailers-List li img {
+    width: 55%;
+    box-shadow: 0 1px 9px #131111;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+ul.Retailers-List li a img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+div.Get-Infor {
+    /* background-color: blueviolet; */
+    /* margin-top: 6%; */
+    margin-left: 4%;
+    padding: 5%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+div.Get-Infor h3 {
+    color: rgb(221, 214, 214);
+    text-shadow: 3px 5px 5px rgb(161, 49, 49);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.Get-Infor input[type="text"] {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgba(83, 79, 79, 0.7);
+    color: white;
+}
+
+div.Res-Gmail a {
+    background-color: rgba(73, 72, 72, 0.7);
+    display: inline-block;
+    padding: 2% 10%;
+    margin-top: 3%;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+div.Res-Gmail a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+div.CopyRight {
+    color: rgb(151, 148, 148);
+    margin-left: 1%;
+    margin-bottom: 1.5%;
+}
+
+
+/*========================================================*/
+
+div#top {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(151, 146, 146, 0.5);
+    cursor: pointer;
+    padding: 0.75%;
+    border-radius: 100%;
+    font-size: 1px;
+}
+
+div#top i {
+    color: black;
+}
+
+#top:hover {
+    background-color: rgb(105, 105, 105);
+}
+
+
+/*==============================================*/
+
+
+/*==============================================*/
+
+
+/*==============================================*/

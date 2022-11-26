@@ -1,0 +1,23 @@
+﻿Build started 25/04/2021 9:57:53 CH.
+     1>Project "c:\Users\Admin\documents\visual studio 2010\Projects\SuuTapTongHop\SuuTapTongHop\SuuTapTongHop.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\admin\documents\visual studio 2010\Projects\SuuTapTongHop\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\SuuTapTongHop.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>c:\users\admin\documents\visual studio 2010\projects\suutaptonghop\suutaptonghop\1.cpp(40): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\admin\documents\visual studio 2010\Projects\SuuTapTongHop\Debug\SuuTapTongHop.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SuuTapTongHop.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\admin\documents\visual studio 2010\Projects\SuuTapTongHop\Debug\SuuTapTongHop.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\admin\documents\visual studio 2010\Projects\SuuTapTongHop\Debug\SuuTapTongHop.lib" /MACHINE:X86 Debug\1.obj
+         SuuTapTongHop.vcxproj -> c:\users\admin\documents\visual studio 2010\Projects\SuuTapTongHop\Debug\SuuTapTongHop.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\admin\documents\visual studio 2010\Projects\SuuTapTongHop\Debug\SuuTapTongHop.exe;#1" /manifest Debug\SuuTapTongHop.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SuuTapTongHop.unsuccessfulbuild".
+         Touching "Debug\SuuTapTongHop.lastbuildstate".
+     1>Done Building Project "c:\Users\Admin\documents\visual studio 2010\Projects\SuuTapTongHop\SuuTapTongHop\SuuTapTongHop.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.55

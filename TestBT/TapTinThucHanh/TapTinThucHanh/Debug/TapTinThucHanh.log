@@ -1,0 +1,17 @@
+﻿Build started 27/05/2021 1:25:48 SA.
+     1>Project "D:\VS2010\TestBT\TapTinThucHanh\TapTinThucHanh\TapTinThucHanh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TapTinThucHanh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         TapTinThucHanh.vcxproj -> D:\VS2010\TestBT\TapTinThucHanh\Debug\TapTinThucHanh.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TapTinThucHanh.unsuccessfulbuild".
+         Touching "Debug\TapTinThucHanh.lastbuildstate".
+     1>Done Building Project "D:\VS2010\TestBT\TapTinThucHanh\TapTinThucHanh\TapTinThucHanh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05
