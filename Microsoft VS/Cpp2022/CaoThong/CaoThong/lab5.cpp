@@ -137,9 +137,24 @@ void cau12_e (int n)
 	}
 }
 
+void deThiK22(int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			if (i == j || j == n - i - 1)
+				cout << "*";
+			else
+				cout << " ";
+		}
+		cout << endl;
+	}
+}
+
 int main()
 {
-	cau12_e(4);
+	deThiK22(5);
 	system("pause");
 	return 0;
 }

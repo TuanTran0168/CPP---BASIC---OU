@@ -1,4 +1,4 @@
-﻿Build started 26/11/2022 10:47:04 CH.
+﻿Build started 29/11/2022 11:15:30 CH.
      1>Project "E:\VS2010\Cpp2022\CaoThong\CaoThong\CaoThong.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\CaoThong.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -22,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.68
+Time Elapsed 00:00:01.23
